@@ -1,0 +1,13 @@
+name: customizableAnnouncement
+version: '1.0-SNAPSHOT'
+main: tool.ant_cave.aisa.customizableAnnouncement.CustomizableAnnouncement
+api-version: '1.21'
+authors: [ ANTmmmmm ]
+commands:
+  reloadAnnouncement:
+    description: Reload the plugin's configuration
+    usage: /reloadAnnouncement
+permissions:
+  customizableAnnouncement.reload:
+    description: Permission to reload the plugin's configuration
+    default: op
